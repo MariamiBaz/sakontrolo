@@ -1,0 +1,268 @@
+@media screen and (max-width: 1500px) {
+  main.albums aside.bot {
+    width: 100%;
+  }
+  body header section.first {
+    width: 80%;
+  }
+  main.about section aside.right img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  main.albums aside.bot aside.left .card,
+  main.albums aside.bot aside.right .card {
+    width: 400px;
+  }
+  main.albums aside.bot aside.left .card img,
+  main.albums aside.bot aside.right .card img {
+    width: 398px;
+  }
+  main.about section aside.right img {
+    width: 330px;
+  }
+
+  main.about section aside.right p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body header section.first {
+    width: 80%;
+  }
+  main.about section aside.right img {
+    width: 300px;
+  }
+
+  main.about section aside.right p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  main.albums aside.bot aside.left .card,
+  main.albums aside.bot aside.right .card {
+    width: 300px;
+  }
+  main.albums aside.bot aside.left .card img,
+  main.albums aside.bot aside.right .card img {
+    width: 298px;
+  }
+  main.albums aside.bot aside.left .card audio,
+  main.albums aside.bot aside.right .card audio {
+    width: 250px;
+  }
+  main.contact div aside.right div input,
+  main.contact div aside.right div input.last {
+    width: 400px;
+  }
+  main.contact div aside.left h3 {
+    font-size: 30px;
+  }
+  main.contact p {
+    font-size: 13px;
+  }
+  main.contact button {
+    margin-left: 80px;
+  }
+  main.about section aside.right img {
+    width: 250px;
+  }
+  main.about section aside.right h5 {
+    font-size: 20px;
+  }
+
+  main.about section aside.right p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main.albums aside.bot aside.left .card,
+  main.albums aside.bot aside.right .card {
+    width: 250px;
+  }
+  main.albums aside.bot aside.left .card img,
+  main.albums aside.bot aside.right .card img {
+    width: 248px;
+  }
+  main.albums aside.bot aside.left .card audio,
+  main.albums aside.bot aside.right .card audio {
+    width: 200px;
+  }
+  footer input {
+    width: 500px;
+  }
+  main.contact div aside.right div input,
+  main.contact div aside.right div input.last {
+    width: 300px;
+  }
+  main.about section.right {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  main.contact div aside.right div input,
+  main.contact div aside.right div input.last {
+    width: 200px;
+  }
+  header {
+    margin: auto;
+  }
+  main.contact div aside.left h3 {
+    font-size: 20px;
+  }
+  main.contact p {
+    font-size: 10px;
+  }
+  footer input {
+    width: 300px;
+  }
+  main.albums aside.bot aside.left .card,
+  main.albums aside.bot aside.right .card {
+    width: 200px;
+  }
+  main.albums aside.bot aside.left .card img,
+  main.albums aside.bot aside.right .card img {
+    width: 198px;
+  }
+  main.albums aside.bot aside.left .card audio,
+  main.albums aside.bot aside.right .card audio {
+    width: 150px;
+  }
+  main.albums aside.top aside.right div button {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 600px) {
+  main.about {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header section.second a.big {
+    font-size: 40px;
+  }
+  header {
+    margin: auto;
+  }
+  main.about section aside.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main.albums aside.bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    width: 100%;
+  }
+  main.about {
+    padding: 0;
+  }
+  main.about section aside.right p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.about section aside.right img {
+    padding-left: 20px;
+  }
+  main.about section aside.right h5 {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    margin-left: 20px;
+  }
+  main.about section aside.right img {
+    width: 200px;
+    margin-right: 150px;
+  }
+  main.about section aside.right p {
+    font-size: 8px;
+  }
+  header section.second a.big {
+    font-size: 30px;
+  }
+  header section.second a.smaill {
+    font-size: 12px;
+  }
+  main.contact div {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px !important;
+  }
+  main.contact div aside.left {
+    padding-top: 120px;
+  }
+  header {
+    margin: auto;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  footer input {
+    width: 200px;
+  }
+
+  main.contact div {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    row-gap: 5px;
+    height: auto;
+    padding-bottom: 10px;
+    margin-top: -20px;
+  }
+  main.contact div aside.left h3 {
+    font-size: 20px;
+  }
+  main.contact div aside.left p {
+    padding-left: 20px;
+    align-content: center;
+  }
+  footer div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  main.about section aside.right img {
+    width: 180px;
+    margin-right: 20px;
+  }
+
+  header {
+    margin: auto;
+  }
+  footer {
+    width: 100%;
+  }
+  footer div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  footer input {
+    width: 200px;
+  }
+  footer button {
+    width: 150px;
+  }
+  main.about {
+    padding: 0;
+  }
+}

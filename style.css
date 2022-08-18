@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Rajdhani", sans-serif;
+  --primary-color: #2c2c2b;
+  --secondary-color: purple;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body header section.first {
+  width: 80%;
+}
+
+header {
+  width: 100%;
+}
+.active {
+  color: var(--secondary-color);
+}
+header {
+  padding-top: 20px;
+}
+header section.first {
+  width: 100%;
+}
+
+header section.first ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+header section.first ul li a {
+  color: var(--primary-color);
+}
+
+header section.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header section.second a.big {
+  font-family: var(--secondary-font);
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+header section.second a.small {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+header section.third ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+header section.third ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+main aside.top {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+main aside.top a {
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+}
+
+main aside.top button {
+  font-size: 14px;
+  color: var(--primary-color);
+  width: 150px;
+  height: 36px;
+  border: 1px solid #87a180;
+  margin-left: 130px;
+  font-family: var(--primary-font);
+}
+
+main aside.bot {
+  padding-top: 50px;
+  margin: auto;
+  column-gap: 0px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+aside.bot img {
+  width: 454px;
+  height: auto;
+}
+
+aside.bot h5 {
+  font-size: 26px;
+  font-family: var(--secondary-font);
+  font-weight: 200;
+}
+
+aside.bot p {
+  font-size: 16px;
+  font-family: var(--primary-font);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 223px;
+  background-color: var(--primary-color);
+}
+
+footer span {
+  color: white;
+  font-size: 30px;
+  font-family: var(--secondary-font);
+  font-weight: 200;
+}
+
+footer input {
+  width: 765px;
+  height: 40px;
+  background-color: var(--primary-color);
+  border: 1px solid white;
+}
+
+footer button {
+  width: 165px;
+  height: 40px;
+  border: 1px solid white;
+  margin-left: 10px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 11px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  padding-left: 20px;
+}
+
+footer input::placeholder:hover {
+  border: 5px solid white;
+}
+
+hr {
+  color: var(--primary-color);
+  width: 62%;
+  margin: auto;
+}
+
+aside.bot aside.left ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-family: var(primary-font);
+}
+
+aside.bot aside.left ul li {
+  list-style: decimal;
+  line-height: 2em;
+}
+
+aside.bot aside.right ul li {
+  list-style: decimal;
+  line-height: 2em;
+}
+
+aside.bot aside.right ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-family: var(primary-font);
+}
+
+main.about h5 {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+
+  font-weight: 300;
+}
+
+main.about p {
+  font-family: var(--primary-font);
+  font-size: 15px;
+}
+main.about img {
+  padding-top: 20px;
+  padding: auto;
+}
+
+main.about {
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+main.contact div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  column-gap: 20px;
+}
+
+main.contact div aside.right div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+main.contact div aside.left div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+main.contact div aside.right div input {
+  width: 615px;
+  height: 35px;
+  color: var(--primary-color);
+}
+main.contact div aside.right div input.last {
+  width: 615px;
+  height: 126px;
+}
+
+main.contact ::placeholder {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 13px;
+  letter-spacing: 0.01em;
+}
+
+main.contact div aside.left h3 {
+  font-family: var(--secondary-font);
+  font-size: 50px;
+  font-weight: 300;
+  margin-right: 130px;
+}
+main.contact button {
+  margin-left: 495px;
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid var(--primary-color);
+}
+
+main.p {
+  font-size: 13px;
+}
+
+main aside.bot aside.left .card {
+  width: 28.5rem;
+}
